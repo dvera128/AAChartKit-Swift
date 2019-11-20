@@ -241,6 +241,9 @@ public class AADataElement: AAObject {
         marker = prop
         return self
     }
+  
+    public  override init() {
+    }
 }
 
 public class AAShadow: AAObject {
